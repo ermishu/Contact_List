@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* text-align: center; */
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+ul{
+    list-style: none;
+}
+li{   
+    margin:4px;
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    background-color: rgb(4, 73, 67);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.details:hover{
+    background-color: rgb(15, 121, 113);
+}
+.delete-button{
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-button a i{
+    color: red;
+}
